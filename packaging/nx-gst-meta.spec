@@ -9,6 +9,7 @@ Source:  %{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig automake autoconf libtool
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	gstreamer1-devel
+BuildRequires:	gstreamer1-plugins-base-devel
 BuildRequires:	glibc-devel
 
 Requires(post): /sbin/ldconfig
