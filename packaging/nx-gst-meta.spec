@@ -1,7 +1,7 @@
 Name:    nx-gst-meta
 Version: 0.0.1
 Release: 1
-License: Apache 2.0
+License: LGPLv2+
 Summary: Nexell GStreamer Meta Data
 Group: Development/Libraries
 Source:  %{name}-%{version}.tar.gz
@@ -45,6 +45,8 @@ find %{buildroot} -type f -name "*.la" -delete
 
 %files
 %{_libdir}/libnxgstmeta.so*
+%license LICENSE.LGPLv2+
 
 %files devel
 %{_includedir}/*
+%license LICENSE.LGPLv2+
