@@ -21,7 +21,7 @@ Nexell GStreamer Meta Data
 %package devel
 Summary: Nexell GStreamer Meta Data development
 Group: Development/Libraries
-License: Apache 2.0
+License: LGPLv2+
 Requires: %{name} = %{version}-%{release}
 
 %description devel
