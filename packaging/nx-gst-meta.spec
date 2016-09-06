@@ -1,5 +1,5 @@
 Name:    nx-gst-meta
-Version: 0.0.1
+Version: 1.0.0
 Release: 1
 License: LGPLv2+
 Summary: Nexell GStreamer Meta Data
